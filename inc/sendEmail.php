@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'user@website.com';
+$siteOwnersEmail = 'pandeyrishabh25@gmail.com';
 
 
 if($_POST) {
@@ -10,9 +10,12 @@ if($_POST) {
    $email = trim(stripslashes($_POST['contactEmail']));
    $subject = trim(stripslashes($_POST['contactSubject']));
    $contact_message = trim(stripslashes($_POST['contactMessage']));
-
+   $message ='';
+   $error='';
+     
+	 
    // Check Name
-	if (strlen($name) < 2) {
+	if (strlen($name) < 3) {
 		$error['name'] = "Please enter your name.";
 	}
 	// Check Email
@@ -25,11 +28,11 @@ if($_POST) {
 	}
    // Subject
 	if ($subject == '') { $subject = "Contact Form Submission"; }
-
+  
 
    // Set Message
    $message .= "Email from: " . $name . "<br />";
-	$message .= "Email address: " . $email . "<br />";
+   $message .= "Email address: " . $email . "<br />";
    $message .= "Message: <br />";
    $message .= $contact_message;
    $message .= "<br /> ----- <br /> This email was sent from your site's contact form. <br />";
