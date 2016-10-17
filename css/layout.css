@@ -407,7 +407,31 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* ------------------------------------------------------------------ */
-/* e. Portfolio Section
+/* D. Training Section
+/* ------------------------------------------------------------------ */
+
+
+
+#training a, #training a:visited  { color: #fff; }
+#training a:hover, #training a:focus { color: #11ABB0; }
+
+}
+
+
+/* ------------------------------------------------------------------ */
+/* E. Testimonials Section
+/* ------------------------------------------------------------------ */
+
+
+
+#testimonials a, #testimonialst a:visited  { color: #fff; }
+#testimonials a:hover, #testimonials a:focus { color: #11ABB0; }
+
+
+
+
+/* ------------------------------------------------------------------ */
+/* F. Portfolio Section
 /* ------------------------------------------------------------------ */
 
 #portfolio {
