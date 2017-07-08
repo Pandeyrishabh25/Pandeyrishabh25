@@ -330,8 +330,8 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: c 2s ease;
   	-webkit-animation: c 2s ease;
 }
-.java {
-  	width: 80%;
+.c {
+  	width: 75%;
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }
@@ -340,22 +340,51 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: php 2s ease;
   	-webkit-animation:php 2s ease;
 }
-.css {
-  	width: 40%;
+.reactnative {
+  	width: 95%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
-.html {
-  	width: 70%;
+.crna {
+  	width: 95%;
   	-moz-animation: html 2s ease;
   	-webkit-animation: html 2s ease;
 }
 .javascript {
-  	width: 60%;
+  	width: 86%;
   	-moz-animation: javascript 2s ease;
   	-webkit-animation: javascript 2s ease;
 }
-
+.statemanagement {
+  	width: 90%;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
+}
+.nosql {
+  	width: 88%;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
+}
+.sql {
+  	width: 80%;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
+}
+.Expressjs {
+  	width: 90%;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
+}
+.node {
+  	width: 86%;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
+}
+.socket {
+  	width: 97%;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
+}
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 60%;  }
